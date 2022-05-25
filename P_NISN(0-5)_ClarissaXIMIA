@@ -1,0 +1,23 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main(){
+    int a, b, c, D;
+    cout<<"Masukkan a : ";cin>>a;
+    if (a == 0){
+        cout<<"a tidak boleh 0"<<endl;
+    }
+    else {
+        cout<<"Masukkan b : ";cin>>b;
+        cout<<"Masukkan c : ";cin>>c;
+        D = (pow(2, b)*4*a*c);
+        }
+    if (D == 0){
+        cout<<"akar kembar"<<endl;
+    }
+    if (D < 0){
+        cout<<"akar real"<<endl;
+        cout<<"akar imajiner"<<endl;
+    }
+    return 0;
+}
